@@ -1,7 +1,7 @@
 {
   "name": "moontv",
   "build": {
-    "command": "pnpm pages:build",
+    "command": "npm install --legacy-peer-deps && npm run pages:build",
     "output": ".vercel/output/static"
   },
   "routes": [
