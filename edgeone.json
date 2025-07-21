@@ -1,7 +1,7 @@
 {
   "name": "moontv",
   "build": {
-    "command": "npm install --force && npm run gen:runtime && npm run gen:manifest && npm run build && npx @cloudflare/next-on-pages",
+    "command": "npm install --force && npm run build && npx @cloudflare/next-on-pages",
     "output": ".vercel/output/static"
   },
   "routes": [
